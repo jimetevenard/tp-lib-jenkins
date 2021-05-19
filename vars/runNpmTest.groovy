@@ -1,8 +1,6 @@
 #!/usr/bin/env groovy
 
 def call() {
-    nodejs('node-16') {
-        sh 'node -v'
-        sh 'npm test'
-    }
+    sh 'node -v'
+    sh 'npm test'
 }
